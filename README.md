@@ -11,5 +11,14 @@ aws cloudformation create-stack --stack-name my-stack --template-body file://pre
 
 ```
 
+
+To delete cloud formation stack use the command below
+
+```bash
+
+aws cloudformation delete-stack --stack-name my-stack
+
+```
+
 still working on the readme
 
